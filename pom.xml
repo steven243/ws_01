@@ -59,5 +59,17 @@
 			<artifactId>logback-classic</artifactId>
 			<version>1.0.13</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>javax.websocket.*</groupId>
+			<artifactId>jwbs</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.websocket.server.ServerEndpoint</groupId>
+			<artifactId>jwss</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>
