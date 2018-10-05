@@ -1,6 +1,11 @@
 package org.software;
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
 @ServerEndpoint("/hello")
 
 public class HelloWorldEndpoint { 
