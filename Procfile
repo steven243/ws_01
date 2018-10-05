@@ -1,1 +1,1 @@
-web: gunicorn src/org/sofware
+web: java -jar 
